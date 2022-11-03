@@ -29,3 +29,14 @@ $('.testimonial__slider').slick({
     dots: true,
     dotsClass: 'slick-dots'
 });
+
+
+
+$(".menu__trigger").click(function() {
+    $( this ).closest(".wrapper").toggleClass('open')
+  })
+
+  $('.menu__trigger').click(function() { 
+    $( this ).toggleClass('active')
+  })
+

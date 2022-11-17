@@ -613,7 +613,8 @@ body {
     opacity: 0;
   }
 }
-.intro__slideshow, .intro__slideshow:after {
+.intro__slideshow,
+.intro__slideshow:after {
   position: relative;
   width: 650px;
   z-index: 0;

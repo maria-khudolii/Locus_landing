@@ -145,7 +145,6 @@ body {
   .title {
     font-size: 30px;
   }
-
   .subtitle {
     font-size: 20px;
   }
@@ -268,13 +267,11 @@ body {
   .header__container {
     min-height: 160px;
   }
-
   .header__wrapper {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: flex-start;
   }
-
   .logo__text {
     display: none;
   }
@@ -287,7 +284,6 @@ body {
             flex-direction: column;
     padding: 40px 0;
   }
-
   .header__wrapper {
     margin-bottom: 30px;
     position: relative;
@@ -394,18 +390,15 @@ body {
   .header__button {
     display: none;
   }
-
   .header__container {
     padding-top: 40px;
     padding-bottom: 40px;
     position: relative;
   }
-
   .menu__trigger {
     display: inline-block;
     margin-left: 10px;
   }
-
   .menu__trigger span {
     display: inline-block;
     -webkit-transition: all 0.4s;
@@ -417,37 +410,29 @@ body {
     background-color: #58A9A5;
     border-radius: 4px;
   }
-
   .menu__trigger span:nth-of-type(1) {
     top: 0;
   }
-
   .menu__trigger span:nth-of-type(2) {
     top: 20px;
   }
-
   .menu__trigger span:nth-of-type(3) {
     bottom: 0;
   }
-
   .menu__trigger.active span:nth-of-type(1) {
     -webkit-transform: translateY 20px rotate -45deg;
     transform: translateY(20px) rotate(-45deg);
   }
-
   .menu__trigger.active span:nth-of-type(2) {
     opacity: 0;
   }
-
   .menu__trigger.active span:nth-of-type(3) {
     -webkit-transform: translateY(-20px) rotate(45deg);
     transform: translateY(-20px) rotate(45deg);
   }
-
   .menu__list {
     display: none;
   }
-
   .header__container.open {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
@@ -457,7 +442,6 @@ body {
         -ms-flex-align: start;
             align-items: start;
   }
-
   .menu__container {
     position: absolute;
     width: 100%;
@@ -468,11 +452,9 @@ body {
     left: 0;
     z-index: 100;
   }
-
   .wrapper.open .menu__container {
     top: 145px;
   }
-
   .wrapper.open .menu-open__list {
     padding-top: 15px;
     display: block;
@@ -481,19 +463,17 @@ body {
     left: 0;
     text-align: left;
     width: 100%;
+    height: 100vh;
   }
-
   .wrapper.open .menu__item {
     width: 100%;
     margin-bottom: 5px;
   }
-
   .wrapper.open .menu__btn {
     display: block;
     width: 100%;
     color: #fff;
   }
-
   .menu__link {
     display: block;
     text-align: left;
@@ -511,7 +491,6 @@ body {
   .button {
     width: 100%;
   }
-
   .button {
     height: 50px;
     font-size: 18px;
@@ -555,11 +534,9 @@ body {
   .intro__container {
     padding-top: 175px;
   }
-
   .intro__content {
     max-width: 500px;
   }
-
   .intro__text {
     font-size: 20px;
     line-height: 1.5;
@@ -577,12 +554,10 @@ body {
             justify-content: center;
     margin-bottom: 50px;
   }
-
   .intro__content {
     max-width: 100%;
     margin: 0 auto;
   }
-
   .intro__text {
     font-size: 20px;
     line-height: 1.5;
@@ -751,7 +726,6 @@ body {
     height: 100%;
     width: 500px;
   }
-
   .about__text {
     padding: 30px;
   }
@@ -764,12 +738,10 @@ body {
             flex-direction: column;
     margin: 0 -15px 100px -15px;
   }
-
   .about__video iframe {
     height: 350px;
     width: 100%;
   }
-
   .about__text {
     font-size: 20px;
     line-height: 1.5;
@@ -933,34 +905,28 @@ body {
   .about {
     margin-bottom: 50px;
   }
-
   .about__description {
     margin-bottom: 50px;
   }
-
   .mission {
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
         -ms-flex-direction: column-reverse;
             flex-direction: column-reverse;
   }
-
   .mission__title {
     font-size: 30px;
     line-height: 1.5;
     margin-bottom: 20px;
   }
-
   .mission__text {
     font-size: 20px;
     line-height: 1.5;
   }
-
   .mission__content {
     max-width: 100%;
     margin-bottom: 20px;
   }
-
   .mission__slider {
     margin: 0 auto;
   }
@@ -969,7 +935,6 @@ body {
   .mission__slider {
     display: none;
   }
-
   .mission__img {
     display: block;
     max-width: 100vw;
@@ -1029,7 +994,6 @@ body {
     display: block;
     margin-bottom: 50px;
   }
-
   .portfolio__item {
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1039,12 +1003,10 @@ body {
        -moz-column-gap: 20px;
             column-gap: 20px;
   }
-
   .portfolio__img {
     width: 40%;
     margin-bottom: 35px;
   }
-
   .project__title {
     font-size: 25px;
     line-height: 1.5;
@@ -1059,17 +1021,14 @@ body {
             flex-direction: column;
     margin-bottom: 40px;
   }
-
   .portfolio__img {
     display: none;
   }
-
   .portfolio-mob__img {
     width: 70%;
     margin: 0 auto;
     display: block;
   }
-
   .project__title {
     text-align: center;
   }
@@ -1273,17 +1232,14 @@ body {
   .testimonial {
     margin-bottom: 100px;
   }
-
   .partners__list {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
   }
-
   .testimonial__wrapper img {
     display: none;
   }
-
   .testimonial__content {
     max-width: 100%;
   }
@@ -1292,37 +1248,30 @@ body {
   .testimonial__content {
     padding: 40px;
   }
-
   .result__number {
     font-size: 50px;
     line-height: 1.5;
   }
-
   .result__subtitle {
     font-size: 20px;
     line-height: 1.5;
   }
-
   .results__list {
     margin-bottom: 40px;
   }
-
   .testimonial__item {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .testimonial__name {
     font-size: 18px;
   }
-
   .slick-dots button {
     height: 10px;
     width: 10px;
     margin: 5px;
     outline: none;
   }
-
   .slick-dots li[class=slick-active] button {
     height: 13px;
     width: 13px;
@@ -1332,11 +1281,9 @@ body {
   .testimonial__container {
     margin: 0 -15px;
   }
-
   .testimonial__content {
     padding: 20px;
   }
-
   .results__list {
     -webkit-column-gap: 30px;
        -moz-column-gap: 30px;
@@ -1347,12 +1294,10 @@ body {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
   }
-
   .result__number {
     font-size: 40px;
     line-height: 1.5;
   }
-
   .result__subtitle {
     font-size: 18px;
     line-height: 1.5;
@@ -1527,20 +1472,17 @@ body {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-
   .contact__info {
     text-align: center;
     width: 100%;
     margin-bottom: 50px;
   }
-
   .contact__form {
     margin-left: 0;
     width: 100%;
     padding: 15px;
     margin-bottom: 150px;
   }
-
   .send__button {
     bottom: 15px;
     right: 15px;
@@ -1551,72 +1493,57 @@ body {
     bottom: -70px;
     right: 0;
   }
-
   .contact__text {
     font-size: 20px;
   }
-
   .contact__description {
     width: 100%;
   }
-
   .contact__form {
     margin-bottom: 150px;
   }
-
   .contact__input {
     font-size: 18px;
   }
-
   .contact__input::-webkit-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__input::-moz-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__input:-ms-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__input::-ms-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__input::placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__description {
     font-size: 18px;
   }
-
   .contact__description::-webkit-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__description::-moz-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__description:-ms-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__description::-ms-input-placeholder {
     font-size: 18px;
     line-height: 1.5;
   }
-
   .contact__description::placeholder {
     font-size: 18px;
     line-height: 1.5;
